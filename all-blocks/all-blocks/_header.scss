@@ -1,0 +1,29 @@
+.header {
+margin-top: 20px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about {
+    display: flex;
+
+    &__li {
+        list-style: none;
+    }
+
+    &__text {
+        text-decoration: none;
+        margin-left: 25px;
+        color: black;
+
+        &:hover {
+            text-decoration: underline;
+            color: red;
+        }
+    }
+}
+
